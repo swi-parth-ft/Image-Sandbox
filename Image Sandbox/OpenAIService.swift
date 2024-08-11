@@ -11,9 +11,12 @@ import UIKit
 
 class OpenAIService {
     static let shared = OpenAIService()
-    private init() {}
     
-    private let apiKey = ""
+    private init() {
+       
+    }
+    
+    private let apiKey = "\(Keys().key)"
     private let url = URL(string: "https://api.openai.com/v1/images/generations")!
     
     func generateImage(from prompt: String, completion: @escaping (Result<UIImage, Error>) -> Void) {

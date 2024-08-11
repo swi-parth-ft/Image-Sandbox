@@ -12,6 +12,7 @@
 		077E057E2C68400900B9D2D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077E057D2C68400900B9D2D4 /* Assets.xcassets */; };
 		077E05812C68400900B9D2D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077E05802C68400900B9D2D4 /* Preview Assets.xcassets */; };
 		077E05882C68402E00B9D2D4 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077E05872C68402E00B9D2D4 /* OpenAIService.swift */; };
+		077E058A2C68499E00B9D2D4 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077E05892C68499E00B9D2D4 /* Keys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		077E057D2C68400900B9D2D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		077E05802C68400900B9D2D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		077E05872C68402E00B9D2D4 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		077E05892C68499E00B9D2D4 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				077E05792C68400700B9D2D4 /* Image_SandboxApp.swift */,
 				077E057B2C68400700B9D2D4 /* ContentView.swift */,
 				077E05872C68402E00B9D2D4 /* OpenAIService.swift */,
+				077E05892C68499E00B9D2D4 /* Keys.swift */,
 				077E057D2C68400900B9D2D4 /* Assets.xcassets */,
 				077E057F2C68400900B9D2D4 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				077E057C2C68400700B9D2D4 /* ContentView.swift in Sources */,
+				077E058A2C68499E00B9D2D4 /* Keys.swift in Sources */,
 				077E057A2C68400700B9D2D4 /* Image_SandboxApp.swift in Sources */,
 				077E05882C68402E00B9D2D4 /* OpenAIService.swift in Sources */,
 			);
